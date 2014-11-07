@@ -9,7 +9,7 @@ git status: shows non versioned files
 - deleted ones
 
 git add <file>: mark files or folders as ready for commit
-# En unix todo es un fichero
+**En unix todo es un fichero**
 
 git reset <file>: Reset current HEAD to the specified state
 

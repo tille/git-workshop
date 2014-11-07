@@ -1,12 +1,11 @@
-using github
-============
+reverting changes
+=================
 
-git-remote - Manage set of tracked repositories
-git remote
-create repo using github UI
-git remote add origin <repo_url>
-git remote
+touch new_file
+git add new_file
 
-git-push - Update remote refs along with associated objects
-git push origin master
+git commit --amend
+git commit --amend -m 'new message'
 
+git add new_file
+git commit --amend
