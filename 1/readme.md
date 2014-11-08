@@ -1,19 +1,21 @@
-git init: creates a folder with git conf
+**git init**: creates a folder with git conf
 
 touch hello.txt
 echo 'hello world' >> hello.txt
 
-git status: shows non versioned files 
+**git status**: shows non versioned files 
 - new files
 - modified files 
 - deleted ones
 
-git add <file>: mark files or folders as ready for commit
-**En unix todo es un fichero**
+**git add <file>**: mark files or folders as ready for commit
 
-git reset <file>: Reset current HEAD to the specified state
+En unix todo es un fichero
 
-git commit: Record changes to the repository
+---- 
+**git reset <file>**: Reset current HEAD to the specified state
+
+**git commit**: Record changes to the repository
 flags:
  - m
  - amend
@@ -22,7 +24,7 @@ flags:
 
 more flags: http://git-scm.com/docs/git-commit 
 
-git log: show commit in current branch
+**git log**: show commit in current branch
  - oneline
 
 **FIN**
