@@ -1,4 +1,5 @@
-Grupos de 3
-1) crear una pag html plana 
-2) agregarle un link
-3) agregarle un link diferente
+**teams of 3 persons**
+
+* **dev-1**: Crear una pag html plana, sin cuerpo 
+* **dev-2**: Agregarle un link
+* **dev-3**: Agregarle un link diferente
