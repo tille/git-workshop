@@ -2,7 +2,7 @@ reverting changes
 =================
 
 <blockquote>
-Use "git checkout -- <file>..." to discard changes in working directory
+Use "git checkout -- <file>..." to discard changes in working directory<br>
 Use checkout only when the file is commited otherwise use reset
 </blockquote>
 
