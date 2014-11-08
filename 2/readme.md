@@ -1,8 +1,9 @@
 reverting changes
 =================
 
-git checkout -- <file_name>
+<blockquote>
 use "git checkout -- <file>..." to discard changes in working directory
+</blockquote>
 
 Use checkout only when the file is commited otherwise use reset
 
