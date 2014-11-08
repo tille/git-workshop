@@ -1,6 +1,6 @@
 # Jerarquia
 
-: <math>\sum_{n=0}^\infty \frac{x^n}{n!}</math>
+$$\sum_{i=1}^n X_i$$
 
 ```git
 - master
