@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.github.com/hueniverse/iron/master/images/logo.png" /> branches tree
+<img align="right" src="https://raw.github.com/hueniverse/iron/master/images/logo.png" /> **branches tree**
 
 ```git
 - master
