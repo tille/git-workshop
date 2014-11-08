@@ -1,6 +1,7 @@
 #Multiple users
 
-**another user**
+**git-pull - Fetch from and integrate with another repository or a local branch**
+
 ```bash
 touch multiple_users
 git add multiple_users
@@ -8,7 +9,7 @@ git commit -m 'Multiple users.'
 git push
 ```
 
-**me**
+**another user**
 ```bash
 git pull
 echo 'Another user' >> multiple_users
