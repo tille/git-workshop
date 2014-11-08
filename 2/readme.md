@@ -4,9 +4,7 @@ reverting changes
 git checkout -- <file_name>
 use "git checkout -- <file>..." to discard changes in working directory
 
-Only when the file is commited otherwise use reset
-
-reverting
+Use checkout only when the file is commited otherwise use reset
 
 ```bash
 touch new_file
