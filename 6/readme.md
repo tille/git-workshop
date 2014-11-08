@@ -30,3 +30,23 @@ grb new branch_name
 git branch --delete branch_name
 git push origin :branch_name
 ```
+
+----
+Using fetch
+-----------
+
+**another user**
+```git
+grb new logout
+touch logout.html
+git add logout.html
+git commit -m 'Add logout page'
+git push
+git co master
+```
+
+**me**
+```git
+git fetch
+git co logout
+```
