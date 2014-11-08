@@ -2,10 +2,10 @@ reverting changes
 =================
 
 <blockquote>
-use "git checkout -- <file>..." to discard changes in working directory
+Use "git checkout -- <file>..." to discard changes in working directory
+Use checkout only when the file is commited otherwise use reset
 </blockquote>
 
-Use checkout only when the file is commited otherwise use reset
 
 ```bash
 touch new_file
