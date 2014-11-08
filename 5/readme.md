@@ -1,4 +1,5 @@
-**teams of 3 persons**
+Como lo harias?
+===============
 
 * **dev-1**: Crear una pag html plana, sin cuerpo 
 * **dev-2**: Agregarle un link
