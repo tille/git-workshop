@@ -1,4 +1,6 @@
-# Jerarquia
+<img align="right" src="https://raw.github.com/hueniverse/iron/master/images/logo.png" /> 
+# branches tree
+[![Build Status](https://secure.travis-ci.org/hueniverse/iron.png)](#)
 
 ```git
 - master
