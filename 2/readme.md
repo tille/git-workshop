@@ -3,6 +3,7 @@ reverting changes
 
 git checkout -- <file_name>
 use "git checkout -- <file>..." to discard changes in working directory
+
 Only when the file is commited otherwise use reset
 
 reverting
@@ -17,12 +18,12 @@ echo 'tales' >> new_file
 
 git checkout -- new_file
 
-
+---- 
 **delete files from versioning**
-
 
 git rm new_file
 
+----
 
 **undoing things with amend**
 
