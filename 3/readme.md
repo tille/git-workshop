@@ -14,3 +14,8 @@ create another repo
 git remote add origin2 <another_repo>
 git push origin2 master
 
+**undoing pushed commits**
+git commit --amend -m 'new description'
+git push
+- Error
+git push -f

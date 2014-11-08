@@ -22,3 +22,6 @@ git add new_file
 git commit --amend
 - vim :x to exit and save
 git commit --amend -m 'new message'
+
+
+emacs .gitignore
