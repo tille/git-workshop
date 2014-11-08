@@ -1,31 +1,49 @@
-#multiple users
+#Multiple users
 
 **another user**
+```bash
 touch multiple_users
+git add multiple_users
+git commit -m 'Multiple users.'
 git push
+```
 
 **me**
+```bash
 git pull
-touch another_change && git add another_change && git commit -m 'Multiple users.' && git push
+echo 'Another user' >> multiple_users
+git add multiple_users
+git commit -m 'Another user.'
+git push
+```
 
+----
+**git-stash - Stash the changes in a dirty working directory away**
 
-Git stash
+```bash
 touch stash.txt
 echo 'Timon' >> stash.txt
+git add stash.txt
 git stash
 git stash list
+```
 
-**another user**
+```bash
 touch stash.txt
-git add .
-git commit -m 'Stashing.'
-git push
-----------------
-
+echo '&&' >> stash.txt
+git stash apply
+- error
+git add stash.txt
 git stash apply
 solve conflicts
+```
+
+```bash
+git stash list
+git stash clear
 echo 'pumba' >> stash.txt
-git add .
+git add stash.txt
 git commit -m 'Timon and pumba.'
 git push
+```
 
