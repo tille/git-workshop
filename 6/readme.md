@@ -45,8 +45,9 @@ git push
 git co master
 ```
 
-**me**
 ```git
 git fetch
 git co logout
 ```
+
+You can add aliases for every git command to .bashrc
