@@ -1,7 +1,5 @@
 # Jerarquia
 
-$$\sum_{i=1}^n X_i$$
-
 ```git
 - master
 -- sandbox
@@ -12,8 +10,10 @@ $$\sum_{i=1}^n X_i$$
 ---- sumar_y_restar (dev-3)
 ```
 
-tricks
-- cherry-pick
+**tricks**
+```git
 - git checkout branch_name -- path/file
+- cherry-pick
 - cuando hacer rebase
 - cuando hacer merge
+```
